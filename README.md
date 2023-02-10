@@ -73,4 +73,4 @@ Reconfigura opções globais do Git: \
 (ex: git config --global --unset --user.name)
 
 ### Avançado
-[Tutorial para adicionat e utilizar diferentes keys para diferentes usuários no Github] ("https://www.freecodecamp.org/portuguese/news/como-gerenciar-diversas-contas-do-github-em-uma-unica-maquina-com-chaves-ssh/")
+[**Tutorial para adicionat e utilizar diferentes keys para diferentes usuários no Github**]("https://www.freecodecamp.org/portuguese/news/como-gerenciar-diversas-contas-do-github-em-uma-unica-maquina-com-chaves-ssh/")
