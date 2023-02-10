@@ -74,4 +74,5 @@ Reconfigura opções globais do Git: \
 
 ### Avançado
 [**Tutorial para adicionar e utilizar diferentes keys para diferentes usuários no Github**](https://www.freecodecamp.org/portuguese/news/como-gerenciar-diversas-contas-do-github-em-uma-unica-maquina-com-chaves-ssh/)
-###Observação: usuários Linux use cat ~/.ssh/id_rsa_user.pub (troque user pelo nome da sua chave) e copiar a chave pública para o Gihub em https://github.com/settings/keys
+### Observação:
+Usuários Linux use cat ~/.ssh/id_rsa_user.pub (troque user pelo nome da sua chave) e copiar a chave pública para o Gihub em https://github.com/settings/keys
