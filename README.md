@@ -77,6 +77,9 @@ Reconfigurar opções globais do Git: \
 ### Observações:
 Usuários Linux use cat ~/.ssh/id_rsa_user.pub (troque user pelo nome da sua chave) e copiar a chave pública para o Gihub em https://github.com/settings/keys
 
+**ssh-add -l** identifica keys armazenadas
+
+
 Antes de enviar um push commit para o repositório, conferir usuário global. Se diferente do user owner, resetar o usuário com git config –global –unset user.email "user". 
 
 Adicionar a key do usuário ao agent ssh-add ~/.ssh/id_rsa_user
