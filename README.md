@@ -57,7 +57,7 @@ Configuração inicial do Git: \
    * Verifica a situação dos arquivos locais em relação ao repositório remoto: \
    **git status**
    * Envia arquivos para o Github: \
-  **git push origem master** **OU** **git push origem main**
+  **git push origem master** OU **git push origem main**
 
 ### Clonar um repositório do Github:** 
 Copiar o link SSH do repositório e digitar no terminal, na pasta desejada: \
