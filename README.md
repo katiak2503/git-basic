@@ -68,11 +68,22 @@ Configurar:** \
 **git config --global --"parâmetro"** \
 (ex: git config --global user.email "user@mail.com")
 
-Reconfigura opções globais do Git: \
+Reconfigurar opções globais do Git: \
 **git config --global --unset --"parâmetro"** \
 (ex: git config --global --unset --user.name)
 
-### Avançado
+### Avançado (Multi Usuário)
 [**Tutorial para adicionar e utilizar diferentes keys para diferentes usuários no Github**](https://www.freecodecamp.org/portuguese/news/como-gerenciar-diversas-contas-do-github-em-uma-unica-maquina-com-chaves-ssh/)
-### Observação:
+### Observações:
 Usuários Linux use cat ~/.ssh/id_rsa_user.pub (troque user pelo nome da sua chave) e copiar a chave pública para o Gihub em https://github.com/settings/keys
+
+Antes de enviar um push commit para o repositório, conferir usuário global. Se diferente do user owner, resetar o usuário com git config –global –unset user.email "user". 
+
+Adicionar a key do usuário ao agent ssh-add ~/.ssh/id_rsa_user
+
+Login do usuário git: ssh -T git@user
+
+PS: Substituir user pelo nome do seu usuário e/ou nome da key.
+
+
+
