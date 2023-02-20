@@ -1,4 +1,4 @@
-# git-basics
+# git-basic
 Dicas para uso do Git e Github
 
 #### Autenticação no Github (no Linux)
